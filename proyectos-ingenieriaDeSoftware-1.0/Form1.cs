@@ -1,0 +1,465 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WFcruzlara
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Signature_button_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("WFcruzlara_signature.exe");
+        }
+
+        private void firmaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("WFcruzlara_signature.exe");
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("notepad.exe");
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("explorer.exe");
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("write.exe");
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("mspaint.exe");
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("msedge.exe");
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("cmd.exe");
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("powershell.exe");
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("devenv.exe");
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("Taskmgr.exe");
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("control.exe");
+        }
+
+        private void archivoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void notepadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("notepad.exe");
+        }
+
+        private void wordpadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("write.exe");
+        }
+
+        private void paintToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("mspaint.exe");
+        }
+
+        private void microsoftEdgeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("msedge.exe");
+        }
+
+        private void cmdToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("cmd.exe");
+        }
+
+        private void powerShellToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("powershell.exe");
+        }
+
+        private void visualStudioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("Calc.exe");
+        }
+
+        private void taskManagerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("Taskmgr.exe");
+        }
+
+        private void controlPanelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("control.exe");
+        }
+
+        private void fileExplorerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("explorer.exe");
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("Calc.exe");
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aplicacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void visualStudioToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("devenv.exe");
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("C:/Program Files/Microsoft VS Code/Code.exe");
+        }
+
+        private void visualStudioCodeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("C:/Program Files/Microsoft VS Code/Code.exe");
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("MSACCESS.exe");
+        }
+
+        private void accessToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("MSACCESS.exe");
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("OUTLOOK.exe");
+        }
+
+        private void outlookToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("OUTLOOK.exe");
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("POWERPNT.exe");
+        }
+
+        private void powerPointToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("POWERPNT.exe");
+        }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("WINWORD.exe");
+        }
+
+        private void wordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("WINWORD.exe");
+        }
+
+        private void pictureBox17_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("EXCEL.exe");
+        }
+
+        private void excelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("EXCEL.exe");
+        }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("C:/Program Files/VideoLAN/VLC/vlc.exe");
+        }
+
+        private void vLCToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("C:/Program Files/VideoLAN/VLC/vlc.exe");
+        }
+
+        private void pictureBox19_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("ONENOTE.exe");
+        }
+
+        private void oneNoteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("ONENOTE.exe");
+        }
+
+        private void pictureBox20_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("C:/Program Files/Mozilla Firefox/firefox.exe");
+        }
+
+        private void oneDriveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("C:/Program Files/Mozilla Firefox/firefox.exe");
+        }
+
+        private void pictureBox21_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("beat-sound.mp3");
+        }
+
+        private void efectoDeSonidoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("beat-sound.mp3");
+        }
+
+        private void pictureBox22_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("test.doc");
+        }
+
+        private void documentoDePruebaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("test.doc");
+        }
+
+        private void pictureBox23_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("test.csv");
+        }
+
+        private void archivoCSVDePruebaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("test.csv");
+        }
+
+        private void pictureBox24_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("esime-logo.jpg");
+        }
+
+        private void logoDeLaESIMEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("esime-logo.jpg");
+        }
+
+        private void pictureBox25_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("ipn-logo.png");
+        }
+
+        private void logoDelIPNToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("ipn-logo.png");
+        }
+
+        private void pictureBox26_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("index.html");
+        }
+
+        private void archivoHTMLToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("index.html");
+        }
+
+        private void pictureBox27_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("hello.txt");
+        }
+
+        private void notaDePruebaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("hello.txt");
+        }
+
+        private void pictureBox28_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("countdown.mp4");
+        }
+
+        private void videoDePruebaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("countdown.mp4");
+        }
+
+        private void pictureBox29_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("styles.css");
+        }
+
+        private void archivoCSSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("styles.css");
+        }
+
+        private void pictureBox30_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("script.js");
+        }
+
+        private void archivoJavaScriptToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("script.js");
+        }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P1_WFcruzlara.exe");
+        }
+
+        private void pictureBox31_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P1_WFcruzlara.exe");
+        }
+
+        private void practicasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox32_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P2_WFcruzlara.exe");
+        }
+
+        private void tarjetaDePresentaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P2_WFcruzlara.exe");
+        }
+
+        private void pictureBox33_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P3_WFcruzlara.exe");
+        }
+
+        private void applicationLauncherToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P3_WFcruzlara.exe");
+        }
+
+        private void pictureBox34_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P4_CAcruzlara.exe");
+        }
+
+        private void instanciaDeClasesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P4_CAcruzlara.exe");
+        }
+
+        private void pictureBox35_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P5_CAcruzlara.exe");
+        }
+
+        private void rangoDeDatosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P5_CAcruzlara.exe");
+        }
+
+        private void pictureBox36_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P6_CAcruzlara.exe");
+        }
+
+        private void rangoDeDatosV2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P6_CAcruzlara.exe");
+        }
+
+        private void pictureBox37_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P7_WFcruzlara.exe");
+        }
+
+        private void applicationLauncherV2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P7_WFcruzlara.exe");
+        }
+
+        private void pictureBox38_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P8_WFcruzlara.exe");
+        }
+
+        private void applicationLauncherV3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P8_WFcruzlara.exe");
+        }
+
+        private void pictureBox39_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P9_WFcruzlara.exe");
+        }
+
+        private void applicationLauncherV4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P9_WFcruzlara.exe");
+        }
+
+        private void pictureBox40_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P10_WFcruzlara.exe");
+        }
+
+        private void applicationLauncherV5ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P10_WFcruzlara.exe");
+        }
+    }
+}
